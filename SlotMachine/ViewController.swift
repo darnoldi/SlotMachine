@@ -9,6 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    // Containers 
+    
+    var firstContainer: UIView!
+    var secondContainer: UIView!
+    var thirdContainer: UIView!
+    var fourthContainer: UIView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +29,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func setupContainerViews() {
+        self.firstContainer = UIView(frame: <#CGRect#>)
+        
+    }
 
 }
 

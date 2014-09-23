@@ -18,10 +18,15 @@ class ViewController: UIViewController {
     var thirdContainer: UIView!
     var fourthContainer: UIView!
     
-
+    
+    //Constants
+    let kMarginForView: CGFloat = 10.0
+    let kSixth:CGFloat = 1/6
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        setupContainerViews()
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,8 +35,9 @@ class ViewController: UIViewController {
     }
 
     func setupContainerViews() {
-        self.firstContainer = UIView(frame: <#CGRect#>)
-        
+        self.firstContainer = UIView(frame: CGRectMake(self.view.bounds.origin.x + kMarginForView, self.view.bounds.origin.y, self.view.bounds.width - (kMarginForView * 2), self.view.bounds.height * kSixth))
+        self.firstContainer.backgroundColor = UIColor.redColor()
+        self.view.addSubview(self.firstContainer)
     }
 
 }

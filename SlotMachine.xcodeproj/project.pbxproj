@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F0B716E19DAEA59007F9C8A /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B716D19DAEA59007F9C8A /* Slot.swift */; };
 		0F0B717019DC142F007F9C8A /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B716F19DC142F007F9C8A /* Factory.swift */; };
+		0F0B717219DC2E86007F9C8A /* slotBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B717119DC2E86007F9C8A /* slotBrain.swift */; };
 		0F58377A19D0450800E9EBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F58377919D0450800E9EBE5 /* AppDelegate.swift */; };
 		0F58377C19D0450800E9EBE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F58377B19D0450800E9EBE5 /* ViewController.swift */; };
 		0F58377F19D0450800E9EBE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F58377D19D0450800E9EBE5 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		0F0B716D19DAEA59007F9C8A /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Slot.swift; path = ../Slot.swift; sourceTree = "<group>"; };
 		0F0B716F19DC142F007F9C8A /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		0F0B717119DC2E86007F9C8A /* slotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slotBrain.swift; sourceTree = "<group>"; };
 		0F58377419D0450800E9EBE5 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F58377819D0450800E9EBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F58377919D0450800E9EBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				0F58377919D0450800E9EBE5 /* AppDelegate.swift */,
 				0F58377B19D0450800E9EBE5 /* ViewController.swift */,
+				0F0B717119DC2E86007F9C8A /* slotBrain.swift */,
 				0F58377D19D0450800E9EBE5 /* Main.storyboard */,
 				0F58378019D0450800E9EBE5 /* Images.xcassets */,
 				0F0B716D19DAEA59007F9C8A /* Slot.swift */,
@@ -220,6 +223,7 @@
 			files = (
 				0F0B717019DC142F007F9C8A /* Factory.swift in Sources */,
 				0F58377C19D0450800E9EBE5 /* ViewController.swift in Sources */,
+				0F0B717219DC2E86007F9C8A /* slotBrain.swift in Sources */,
 				0F0B716E19DAEA59007F9C8A /* Slot.swift in Sources */,
 				0F58377A19D0450800E9EBE5 /* AppDelegate.swift in Sources */,
 			);
